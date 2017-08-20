@@ -7,7 +7,10 @@
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+You can run the project directly,Open the sarfri in the simulator or iphone of the project, enter url: 
+1.zzrouter://productdetail
+2.zzrouter://orderlist
+
 
 ## Requirements
 
