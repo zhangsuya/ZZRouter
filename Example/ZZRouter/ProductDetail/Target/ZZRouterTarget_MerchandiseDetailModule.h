@@ -1,6 +1,6 @@
 //
 //  FNTarget_MerchandiseDetail.h
-//  FNFresh
+//  ZZRouter
 //
 //  Created by Minyoung  on 2017/4/13.
 //  Copyright © 2017年ZZRouter All rights reserved.
@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-@interface FNFreshTarget_MerchandiseDetailModule : NSObject
+@interface ZZRouterTarget_MerchandiseDetailModule : NSObject
 
 /**
  商祥vc
@@ -20,6 +20,6 @@
  }
  @return vc
  */
-- (UIViewController *)action_FNFreshProductDetailViewController_InitializeWithParameter:(NSDictionary *)parameter;
+- (UIViewController *)action_ZZRouterProductDetailViewController_InitializeWithParameter:(NSDictionary *)parameter;
 
 @end

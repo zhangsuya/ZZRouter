@@ -1,6 +1,6 @@
 //
 //  ZZRouterJumpTypeProtocol.h
-//  FNFresh
+//  ZZRouter
 //
 //  Created by 张苏亚 on 17/5/22.
 //  Copyright © 2017年ZZRouter All rights reserved.
@@ -17,9 +17,6 @@
 -(void)jumpWithTypeVC:(UIViewController *)typeVC;
 
 
-@optional
-
--(void)topics;
 
 
 @end

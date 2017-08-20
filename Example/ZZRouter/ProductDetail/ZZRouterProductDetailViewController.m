@@ -1,20 +1,33 @@
 //
-//  FNFreshMrFreshViewController.m
+//  ZZRouterProductDetailViewController.m
 //  ZZRouterDemo
 //
 //  Created by 张苏亚 on 17/8/3.
 //  Copyright © 2017年 张苏亚. All rights reserved.
 //
 
-#import "FNFreshMrFreshViewController.h"
-#import "FNFreshProductDetailViewController.h"
-#import "FNFreshTabBarController.h"
+#import "ZZRouterProductDetailViewController.h"
 
-@interface FNFreshMrFreshViewController ()
+@interface ZZRouterProductDetailViewController ()
 
 @end
 
-@implementation FNFreshMrFreshViewController
+@implementation ZZRouterProductDetailViewController
+
+/**
+ 商祥初始化方法
+ 
+ @param merchandiseId 商品id required
+ @param serviceId 加工服务id optional
+ @return vc
+ */
+- (instancetype)initWithMerchandiseId:(NSString *)merchandiseId serviceId:(NSString *)serviceId
+{
+    if (self = [super init]) {
+        
+    }
+    return self;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -36,10 +49,4 @@
 }
 */
 
-- (IBAction)btnClicked:(id)sender {
-    
-    FNFreshProductDetailViewController *productDetailVC = [[FNFreshProductDetailViewController alloc] init];
-    [[FNFreshTabBarController shareInstance].navigationController pushViewController:productDetailVC animated:YES];
-
-}
 @end

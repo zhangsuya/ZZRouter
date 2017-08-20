@@ -1,6 +1,6 @@
 //
 //  ZZRouterRedirctCheckLogin.m
-//  FNFresh
+//  ZZRouter
 //
 //  Created by 张苏亚 on 17/8/2.
 //  Copyright © 2017年ZZRouter All rights reserved.
@@ -8,15 +8,15 @@
 
 #import "ZZRouterRedirectCheckLogin.h"
 #import "FNMediator.h"
-#import "FNFreshUser.h"
+#import "ZZRouterUser.h"
 #import "FNMediator+FNUserCenterModule.h"
-#import "FNFreshTabBarController.h"
+#import "ZZRouterTabBarController.h"
 
 @implementation ZZRouterRedirectCheckLogin
 
 -(void)redirectByOriginalVC:(UIViewController *)originalVC originalVCBlock:(OriginalVCJumpAction)jumpAction
 {
-    if ([FNFreshUser shareInstance].isLogin) {
+    if ([ZZRouterUser shareInstance].isLogin) {
         jumpAction(originalVC);
     } else {
         [ZZRouterRedirectCheckLogin transtionToLoginVC:^{
@@ -30,7 +30,7 @@
 {
     UIViewController *navigationVC = [[FNMediator sharedInstance] LoginModule_InitWithComplete:loginBlock];
     
-    [[FNFreshTabBarController shareInstance].navigationController presentViewController:navigationVC animated:YES completion:^{
+    [[ZZRouterTabBarController shareInstance].navigationController presentViewController:navigationVC animated:YES completion:^{
         
     }];
     

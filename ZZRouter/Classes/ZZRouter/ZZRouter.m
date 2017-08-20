@@ -1,6 +1,6 @@
 //
 //  ZZRouter.m
-//  FNFresh
+//  ZZRouter
 //
 //  Created by 张苏亚 on 17/3/24.
 //  Copyright © 2017年ZZRouter All rights reserved.
@@ -41,7 +41,7 @@ static const NSString *kSequentialIndependenceMethod = @"sequentialIndependenceM
     NSURL *remoteURL = [NSURL urlWithChineseEnglishString:remoteURLString];
     
     
-    //转换成nativeURL,nativeURL结构：nativefn://target/action?xxx
+    //转换成nativeURL,nativeURL结构：nativeurl://target/action?xxx
     ZZUrlFormat *urlFormat = [[ZZUrlFormat alloc] init];
     NSError *error;
     NSURL *nativeURL = [urlFormat nativeUrlByFormatRemoteUrl:remoteURL error:&error];

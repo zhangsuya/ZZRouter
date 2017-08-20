@@ -34,26 +34,26 @@
 		FE27484D1F497CD80055396F /* UIFont+FNFont.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2748481F497CD80055396F /* UIFont+FNFont.m */; };
 		FE2748561F497CF10055396F /* FNBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2748531F497CF10055396F /* FNBaseTabBarController.m */; };
 		FE2748571F497CF20055396F /* FNTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2748551F497CF10055396F /* FNTabBar.m */; };
-		FE42F8F71F4307780006DDB0 /* FNUrlList.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE42F8F61F4307780006DDB0 /* FNUrlList.plist */; };
+		FE42F8F71F4307780006DDB0 /* UrlList.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE42F8F61F4307780006DDB0 /* UrlList.plist */; };
 		FE4882F71F41867B009FB602 /* FNBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4882CC1F41867B009FB602 /* FNBaseNavigationController.m */; };
 		FE4882F81F41867B009FB602 /* FNBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4882CE1F41867B009FB602 /* FNBaseViewController.m */; };
 		FE4882F91F41867B009FB602 /* UINavigationController+APSafeTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4882CF1F41867B009FB602 /* UINavigationController+APSafeTransition.m */; };
 		FE4882FA1F41867B009FB602 /* UIViewController+FNNavigationBarHidden.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4882D11F41867B009FB602 /* UIViewController+FNNavigationBarHidden.m */; };
-		FE4882FB1F41867B009FB602 /* FNFreshUser.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4882D41F41867B009FB602 /* FNFreshUser.m */; };
-		FE4882FC1F41867B009FB602 /* FNFreshTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4882D71F41867B009FB602 /* FNFreshTabBarController.m */; };
-		FE4882FD1F41867B009FB602 /* FNFreshTarget_TabBarService.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4882D91F41867B009FB602 /* FNFreshTarget_TabBarService.m */; };
-		FE4882FE1F41867B009FB602 /* FNFreshMrFreshViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4882DC1F41867B009FB602 /* FNFreshMrFreshViewController.m */; };
-		FE4882FF1F41867B009FB602 /* FNFreshMrFreshViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE4882DD1F41867B009FB602 /* FNFreshMrFreshViewController.xib */; };
-		FE4883001F41867B009FB602 /* FNFreshLoginParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4882E01F41867B009FB602 /* FNFreshLoginParentViewController.m */; };
-		FE4883011F41867B009FB602 /* FNFreshLoginParentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE4882E11F41867B009FB602 /* FNFreshLoginParentViewController.xib */; };
-		FE4883021F41867B009FB602 /* FNFreshTarget_LoginModule.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4882E41F41867B009FB602 /* FNFreshTarget_LoginModule.m */; };
+		FE4882FB1F41867B009FB602 /* ZZRouterUser.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4882D41F41867B009FB602 /* ZZRouterUser.m */; };
+		FE4882FC1F41867B009FB602 /* ZZRouterTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4882D71F41867B009FB602 /* ZZRouterTabBarController.m */; };
+		FE4882FD1F41867B009FB602 /* ZZRouterTarget_TabBarService.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4882D91F41867B009FB602 /* ZZRouterTarget_TabBarService.m */; };
+		FE4882FE1F41867B009FB602 /* ZZRouterMrFreshViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4882DC1F41867B009FB602 /* ZZRouterMrFreshViewController.m */; };
+		FE4882FF1F41867B009FB602 /* ZZRouterMrFreshViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE4882DD1F41867B009FB602 /* ZZRouterMrFreshViewController.xib */; };
+		FE4883001F41867B009FB602 /* ZZRouterLoginParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4882E01F41867B009FB602 /* ZZRouterLoginParentViewController.m */; };
+		FE4883011F41867B009FB602 /* ZZRouterLoginParentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE4882E11F41867B009FB602 /* ZZRouterLoginParentViewController.xib */; };
+		FE4883021F41867B009FB602 /* ZZRouterTarget_LoginModule.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4882E41F41867B009FB602 /* ZZRouterTarget_LoginModule.m */; };
 		FE4883031F41867B009FB602 /* FNMediator+FNUserCenterModule.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4882E81F41867B009FB602 /* FNMediator+FNUserCenterModule.m */; };
-		FE4883041F41867B009FB602 /* FNFreshMyOrdersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4882EB1F41867B009FB602 /* FNFreshMyOrdersViewController.m */; };
-		FE4883051F41867B009FB602 /* FNFreshMyOrdersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE4882EC1F41867B009FB602 /* FNFreshMyOrdersViewController.xib */; };
-		FE4883061F41867B009FB602 /* FNFreshTarget_OrderModule.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4882EF1F41867B009FB602 /* FNFreshTarget_OrderModule.m */; };
-		FE4883071F41867B009FB602 /* FNFreshProductDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4882F21F41867B009FB602 /* FNFreshProductDetailViewController.m */; };
-		FE4883081F41867B009FB602 /* FNFreshProductDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE4882F31F41867B009FB602 /* FNFreshProductDetailViewController.xib */; };
-		FE4883091F41867B009FB602 /* FNFreshTarget_MerchandiseDetailModule.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4882F61F41867B009FB602 /* FNFreshTarget_MerchandiseDetailModule.m */; };
+		FE4883041F41867B009FB602 /* ZZRouterMyOrdersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4882EB1F41867B009FB602 /* ZZRouterMyOrdersViewController.m */; };
+		FE4883051F41867B009FB602 /* ZZRouterMyOrdersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE4882EC1F41867B009FB602 /* ZZRouterMyOrdersViewController.xib */; };
+		FE4883061F41867B009FB602 /* ZZRouterTarget_OrderModule.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4882EF1F41867B009FB602 /* ZZRouterTarget_OrderModule.m */; };
+		FE4883071F41867B009FB602 /* ZZRouterProductDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4882F21F41867B009FB602 /* ZZRouterProductDetailViewController.m */; };
+		FE4883081F41867B009FB602 /* ZZRouterProductDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE4882F31F41867B009FB602 /* ZZRouterProductDetailViewController.xib */; };
+		FE4883091F41867B009FB602 /* ZZRouterTarget_MerchandiseDetailModule.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4882F61F41867B009FB602 /* ZZRouterTarget_MerchandiseDetailModule.m */; };
 		FE4883141F4186AF009FB602 /* ZZRouterJumpTypeHideTabBarWhenPush.m in Sources */ = {isa = PBXBuildFile; fileRef = FE48830C1F4186AF009FB602 /* ZZRouterJumpTypeHideTabBarWhenPush.m */; };
 		FE4883151F4186AF009FB602 /* ZZRouterJumpTypePresent.m in Sources */ = {isa = PBXBuildFile; fileRef = FE48830E1F4186AF009FB602 /* ZZRouterJumpTypePresent.m */; };
 		FE4883161F4186AF009FB602 /* ZZRouterJumpTypePush.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4883101F4186AF009FB602 /* ZZRouterJumpTypePush.m */; };
@@ -120,7 +120,7 @@
 		FE2748531F497CF10055396F /* FNBaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNBaseTabBarController.m; sourceTree = "<group>"; };
 		FE2748541F497CF10055396F /* FNTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNTabBar.h; sourceTree = "<group>"; };
 		FE2748551F497CF10055396F /* FNTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNTabBar.m; sourceTree = "<group>"; };
-		FE42F8F61F4307780006DDB0 /* FNUrlList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FNUrlList.plist; sourceTree = "<group>"; };
+		FE42F8F61F4307780006DDB0 /* UrlList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = UrlList.plist; sourceTree = "<group>"; };
 		FE4882CB1F41867B009FB602 /* FNBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNBaseNavigationController.h; sourceTree = "<group>"; };
 		FE4882CC1F41867B009FB602 /* FNBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNBaseNavigationController.m; sourceTree = "<group>"; };
 		FE4882CD1F41867B009FB602 /* FNBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNBaseViewController.h; sourceTree = "<group>"; };
@@ -128,32 +128,32 @@
 		FE4882CF1F41867B009FB602 /* UINavigationController+APSafeTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+APSafeTransition.m"; sourceTree = "<group>"; };
 		FE4882D01F41867B009FB602 /* UIViewController+FNNavigationBarHidden.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+FNNavigationBarHidden.h"; sourceTree = "<group>"; };
 		FE4882D11F41867B009FB602 /* UIViewController+FNNavigationBarHidden.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+FNNavigationBarHidden.m"; sourceTree = "<group>"; };
-		FE4882D31F41867B009FB602 /* FNFreshUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNFreshUser.h; sourceTree = "<group>"; };
-		FE4882D41F41867B009FB602 /* FNFreshUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNFreshUser.m; sourceTree = "<group>"; };
-		FE4882D61F41867B009FB602 /* FNFreshTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNFreshTabBarController.h; sourceTree = "<group>"; };
-		FE4882D71F41867B009FB602 /* FNFreshTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNFreshTabBarController.m; sourceTree = "<group>"; };
-		FE4882D81F41867B009FB602 /* FNFreshTarget_TabBarService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNFreshTarget_TabBarService.h; sourceTree = "<group>"; };
-		FE4882D91F41867B009FB602 /* FNFreshTarget_TabBarService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNFreshTarget_TabBarService.m; sourceTree = "<group>"; };
-		FE4882DB1F41867B009FB602 /* FNFreshMrFreshViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNFreshMrFreshViewController.h; sourceTree = "<group>"; };
-		FE4882DC1F41867B009FB602 /* FNFreshMrFreshViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNFreshMrFreshViewController.m; sourceTree = "<group>"; };
-		FE4882DD1F41867B009FB602 /* FNFreshMrFreshViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FNFreshMrFreshViewController.xib; sourceTree = "<group>"; };
-		FE4882DF1F41867B009FB602 /* FNFreshLoginParentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNFreshLoginParentViewController.h; sourceTree = "<group>"; };
-		FE4882E01F41867B009FB602 /* FNFreshLoginParentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNFreshLoginParentViewController.m; sourceTree = "<group>"; };
-		FE4882E11F41867B009FB602 /* FNFreshLoginParentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FNFreshLoginParentViewController.xib; sourceTree = "<group>"; };
-		FE4882E31F41867B009FB602 /* FNFreshTarget_LoginModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNFreshTarget_LoginModule.h; sourceTree = "<group>"; };
-		FE4882E41F41867B009FB602 /* FNFreshTarget_LoginModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNFreshTarget_LoginModule.m; sourceTree = "<group>"; };
+		FE4882D31F41867B009FB602 /* ZZRouterUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZRouterUser.h; sourceTree = "<group>"; };
+		FE4882D41F41867B009FB602 /* ZZRouterUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZRouterUser.m; sourceTree = "<group>"; };
+		FE4882D61F41867B009FB602 /* ZZRouterTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZRouterTabBarController.h; sourceTree = "<group>"; };
+		FE4882D71F41867B009FB602 /* ZZRouterTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZRouterTabBarController.m; sourceTree = "<group>"; };
+		FE4882D81F41867B009FB602 /* ZZRouterTarget_TabBarService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZRouterTarget_TabBarService.h; sourceTree = "<group>"; };
+		FE4882D91F41867B009FB602 /* ZZRouterTarget_TabBarService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZRouterTarget_TabBarService.m; sourceTree = "<group>"; };
+		FE4882DB1F41867B009FB602 /* ZZRouterMrFreshViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZRouterMrFreshViewController.h; sourceTree = "<group>"; };
+		FE4882DC1F41867B009FB602 /* ZZRouterMrFreshViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZRouterMrFreshViewController.m; sourceTree = "<group>"; };
+		FE4882DD1F41867B009FB602 /* ZZRouterMrFreshViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZZRouterMrFreshViewController.xib; sourceTree = "<group>"; };
+		FE4882DF1F41867B009FB602 /* ZZRouterLoginParentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZRouterLoginParentViewController.h; sourceTree = "<group>"; };
+		FE4882E01F41867B009FB602 /* ZZRouterLoginParentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZRouterLoginParentViewController.m; sourceTree = "<group>"; };
+		FE4882E11F41867B009FB602 /* ZZRouterLoginParentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZZRouterLoginParentViewController.xib; sourceTree = "<group>"; };
+		FE4882E31F41867B009FB602 /* ZZRouterTarget_LoginModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZRouterTarget_LoginModule.h; sourceTree = "<group>"; };
+		FE4882E41F41867B009FB602 /* ZZRouterTarget_LoginModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZRouterTarget_LoginModule.m; sourceTree = "<group>"; };
 		FE4882E71F41867B009FB602 /* FNMediator+FNUserCenterModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FNMediator+FNUserCenterModule.h"; sourceTree = "<group>"; };
 		FE4882E81F41867B009FB602 /* FNMediator+FNUserCenterModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FNMediator+FNUserCenterModule.m"; sourceTree = "<group>"; };
-		FE4882EA1F41867B009FB602 /* FNFreshMyOrdersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNFreshMyOrdersViewController.h; sourceTree = "<group>"; };
-		FE4882EB1F41867B009FB602 /* FNFreshMyOrdersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNFreshMyOrdersViewController.m; sourceTree = "<group>"; };
-		FE4882EC1F41867B009FB602 /* FNFreshMyOrdersViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FNFreshMyOrdersViewController.xib; sourceTree = "<group>"; };
-		FE4882EE1F41867B009FB602 /* FNFreshTarget_OrderModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNFreshTarget_OrderModule.h; sourceTree = "<group>"; };
-		FE4882EF1F41867B009FB602 /* FNFreshTarget_OrderModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNFreshTarget_OrderModule.m; sourceTree = "<group>"; };
-		FE4882F11F41867B009FB602 /* FNFreshProductDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNFreshProductDetailViewController.h; sourceTree = "<group>"; };
-		FE4882F21F41867B009FB602 /* FNFreshProductDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNFreshProductDetailViewController.m; sourceTree = "<group>"; };
-		FE4882F31F41867B009FB602 /* FNFreshProductDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FNFreshProductDetailViewController.xib; sourceTree = "<group>"; };
-		FE4882F51F41867B009FB602 /* FNFreshTarget_MerchandiseDetailModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNFreshTarget_MerchandiseDetailModule.h; sourceTree = "<group>"; };
-		FE4882F61F41867B009FB602 /* FNFreshTarget_MerchandiseDetailModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNFreshTarget_MerchandiseDetailModule.m; sourceTree = "<group>"; };
+		FE4882EA1F41867B009FB602 /* ZZRouterMyOrdersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZRouterMyOrdersViewController.h; sourceTree = "<group>"; };
+		FE4882EB1F41867B009FB602 /* ZZRouterMyOrdersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZRouterMyOrdersViewController.m; sourceTree = "<group>"; };
+		FE4882EC1F41867B009FB602 /* ZZRouterMyOrdersViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZZRouterMyOrdersViewController.xib; sourceTree = "<group>"; };
+		FE4882EE1F41867B009FB602 /* ZZRouterTarget_OrderModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZRouterTarget_OrderModule.h; sourceTree = "<group>"; };
+		FE4882EF1F41867B009FB602 /* ZZRouterTarget_OrderModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZRouterTarget_OrderModule.m; sourceTree = "<group>"; };
+		FE4882F11F41867B009FB602 /* ZZRouterProductDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZRouterProductDetailViewController.h; sourceTree = "<group>"; };
+		FE4882F21F41867B009FB602 /* ZZRouterProductDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZRouterProductDetailViewController.m; sourceTree = "<group>"; };
+		FE4882F31F41867B009FB602 /* ZZRouterProductDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZZRouterProductDetailViewController.xib; sourceTree = "<group>"; };
+		FE4882F51F41867B009FB602 /* ZZRouterTarget_MerchandiseDetailModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZRouterTarget_MerchandiseDetailModule.h; sourceTree = "<group>"; };
+		FE4882F61F41867B009FB602 /* ZZRouterTarget_MerchandiseDetailModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZRouterTarget_MerchandiseDetailModule.m; sourceTree = "<group>"; };
 		FE48830B1F4186AF009FB602 /* ZZRouterJumpTypeHideTabBarWhenPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZRouterJumpTypeHideTabBarWhenPush.h; sourceTree = "<group>"; };
 		FE48830C1F4186AF009FB602 /* ZZRouterJumpTypeHideTabBarWhenPush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZRouterJumpTypeHideTabBarWhenPush.m; sourceTree = "<group>"; };
 		FE48830D1F4186AF009FB602 /* ZZRouterJumpTypePresent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZRouterJumpTypePresent.h; sourceTree = "<group>"; };
@@ -241,7 +241,7 @@
 			children = (
 				FE2748401F497CD80055396F /* FNFont */,
 				FE27482A1F497CD00055396F /* FNColor */,
-				FE42F8F61F4307780006DDB0 /* FNUrlList.plist */,
+				FE42F8F61F4307780006DDB0 /* UrlList.plist */,
 				FE48830A1F4186AF009FB602 /* RouterMethod */,
 				FE4882CA1F41867B009FB602 /* FNBaseViewController */,
 				FE4882D21F41867B009FB602 /* FNFreshUser */,
@@ -416,8 +416,8 @@
 		FE4882D21F41867B009FB602 /* FNFreshUser */ = {
 			isa = PBXGroup;
 			children = (
-				FE4882D31F41867B009FB602 /* FNFreshUser.h */,
-				FE4882D41F41867B009FB602 /* FNFreshUser.m */,
+				FE4882D31F41867B009FB602 /* ZZRouterUser.h */,
+				FE4882D41F41867B009FB602 /* ZZRouterUser.m */,
 			);
 			path = FNFreshUser;
 			sourceTree = "<group>";
@@ -426,10 +426,10 @@
 			isa = PBXGroup;
 			children = (
 				FE2748501F497CF10055396F /* FNTabBar */,
-				FE4882D61F41867B009FB602 /* FNFreshTabBarController.h */,
-				FE4882D71F41867B009FB602 /* FNFreshTabBarController.m */,
-				FE4882D81F41867B009FB602 /* FNFreshTarget_TabBarService.h */,
-				FE4882D91F41867B009FB602 /* FNFreshTarget_TabBarService.m */,
+				FE4882D61F41867B009FB602 /* ZZRouterTabBarController.h */,
+				FE4882D71F41867B009FB602 /* ZZRouterTabBarController.m */,
+				FE4882D81F41867B009FB602 /* ZZRouterTarget_TabBarService.h */,
+				FE4882D91F41867B009FB602 /* ZZRouterTarget_TabBarService.m */,
 			);
 			path = FNTabBar;
 			sourceTree = "<group>";
@@ -437,9 +437,9 @@
 		FE4882DA1F41867B009FB602 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				FE4882DB1F41867B009FB602 /* FNFreshMrFreshViewController.h */,
-				FE4882DC1F41867B009FB602 /* FNFreshMrFreshViewController.m */,
-				FE4882DD1F41867B009FB602 /* FNFreshMrFreshViewController.xib */,
+				FE4882DB1F41867B009FB602 /* ZZRouterMrFreshViewController.h */,
+				FE4882DC1F41867B009FB602 /* ZZRouterMrFreshViewController.m */,
+				FE4882DD1F41867B009FB602 /* ZZRouterMrFreshViewController.xib */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -447,9 +447,9 @@
 		FE4882DE1F41867B009FB602 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				FE4882DF1F41867B009FB602 /* FNFreshLoginParentViewController.h */,
-				FE4882E01F41867B009FB602 /* FNFreshLoginParentViewController.m */,
-				FE4882E11F41867B009FB602 /* FNFreshLoginParentViewController.xib */,
+				FE4882DF1F41867B009FB602 /* ZZRouterLoginParentViewController.h */,
+				FE4882E01F41867B009FB602 /* ZZRouterLoginParentViewController.m */,
+				FE4882E11F41867B009FB602 /* ZZRouterLoginParentViewController.xib */,
 				FE4882E21F41867B009FB602 /* Targets */,
 			);
 			path = Login;
@@ -458,8 +458,8 @@
 		FE4882E21F41867B009FB602 /* Targets */ = {
 			isa = PBXGroup;
 			children = (
-				FE4882E31F41867B009FB602 /* FNFreshTarget_LoginModule.h */,
-				FE4882E41F41867B009FB602 /* FNFreshTarget_LoginModule.m */,
+				FE4882E31F41867B009FB602 /* ZZRouterTarget_LoginModule.h */,
+				FE4882E41F41867B009FB602 /* ZZRouterTarget_LoginModule.m */,
 			);
 			path = Targets;
 			sourceTree = "<group>";
@@ -484,9 +484,9 @@
 		FE4882E91F41867B009FB602 /* Order */ = {
 			isa = PBXGroup;
 			children = (
-				FE4882EA1F41867B009FB602 /* FNFreshMyOrdersViewController.h */,
-				FE4882EB1F41867B009FB602 /* FNFreshMyOrdersViewController.m */,
-				FE4882EC1F41867B009FB602 /* FNFreshMyOrdersViewController.xib */,
+				FE4882EA1F41867B009FB602 /* ZZRouterMyOrdersViewController.h */,
+				FE4882EB1F41867B009FB602 /* ZZRouterMyOrdersViewController.m */,
+				FE4882EC1F41867B009FB602 /* ZZRouterMyOrdersViewController.xib */,
 				FE4882ED1F41867B009FB602 /* Target */,
 			);
 			path = Order;
@@ -495,8 +495,8 @@
 		FE4882ED1F41867B009FB602 /* Target */ = {
 			isa = PBXGroup;
 			children = (
-				FE4882EE1F41867B009FB602 /* FNFreshTarget_OrderModule.h */,
-				FE4882EF1F41867B009FB602 /* FNFreshTarget_OrderModule.m */,
+				FE4882EE1F41867B009FB602 /* ZZRouterTarget_OrderModule.h */,
+				FE4882EF1F41867B009FB602 /* ZZRouterTarget_OrderModule.m */,
 			);
 			path = Target;
 			sourceTree = "<group>";
@@ -504,9 +504,9 @@
 		FE4882F01F41867B009FB602 /* ProductDetail */ = {
 			isa = PBXGroup;
 			children = (
-				FE4882F11F41867B009FB602 /* FNFreshProductDetailViewController.h */,
-				FE4882F21F41867B009FB602 /* FNFreshProductDetailViewController.m */,
-				FE4882F31F41867B009FB602 /* FNFreshProductDetailViewController.xib */,
+				FE4882F11F41867B009FB602 /* ZZRouterProductDetailViewController.h */,
+				FE4882F21F41867B009FB602 /* ZZRouterProductDetailViewController.m */,
+				FE4882F31F41867B009FB602 /* ZZRouterProductDetailViewController.xib */,
 				FE4882F41F41867B009FB602 /* Target */,
 			);
 			path = ProductDetail;
@@ -515,8 +515,8 @@
 		FE4882F41F41867B009FB602 /* Target */ = {
 			isa = PBXGroup;
 			children = (
-				FE4882F51F41867B009FB602 /* FNFreshTarget_MerchandiseDetailModule.h */,
-				FE4882F61F41867B009FB602 /* FNFreshTarget_MerchandiseDetailModule.m */,
+				FE4882F51F41867B009FB602 /* ZZRouterTarget_MerchandiseDetailModule.h */,
+				FE4882F61F41867B009FB602 /* ZZRouterTarget_MerchandiseDetailModule.m */,
 			);
 			path = Target;
 			sourceTree = "<group>";
@@ -621,17 +621,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE2748391F497CD00055396F /* FNColor_main.plist in Resources */,
-				FE42F8F71F4307780006DDB0 /* FNUrlList.plist in Resources */,
+				FE42F8F71F4307780006DDB0 /* UrlList.plist in Resources */,
 				FE4883181F4186AF009FB602 /* RouterMethod.plist in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
-				FE4882FF1F41867B009FB602 /* FNFreshMrFreshViewController.xib in Resources */,
+				FE4882FF1F41867B009FB602 /* ZZRouterMrFreshViewController.xib in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				FE27484B1F497CD80055396F /* FNFont_Main.plist in Resources */,
-				FE4883051F41867B009FB602 /* FNFreshMyOrdersViewController.xib in Resources */,
+				FE4883051F41867B009FB602 /* ZZRouterMyOrdersViewController.xib in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
-				FE4883081F41867B009FB602 /* FNFreshProductDetailViewController.xib in Resources */,
-				FE4883011F41867B009FB602 /* FNFreshLoginParentViewController.xib in Resources */,
+				FE4883081F41867B009FB602 /* ZZRouterProductDetailViewController.xib in Resources */,
+				FE4883011F41867B009FB602 /* ZZRouterLoginParentViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -746,33 +746,33 @@
 				FE4882F81F41867B009FB602 /* FNBaseViewController.m in Sources */,
 				FE4883151F4186AF009FB602 /* ZZRouterJumpTypePresent.m in Sources */,
 				FE4883171F4186AF009FB602 /* ZZRouterRedirectCheckLogin.m in Sources */,
-				FE4883071F41867B009FB602 /* FNFreshProductDetailViewController.m in Sources */,
+				FE4883071F41867B009FB602 /* ZZRouterProductDetailViewController.m in Sources */,
 				6003F59E195388D20070C39A /* ZZAppDelegate.m in Sources */,
 				FE2748571F497CF20055396F /* FNTabBar.m in Sources */,
-				FE4883091F41867B009FB602 /* FNFreshTarget_MerchandiseDetailModule.m in Sources */,
-				FE4883021F41867B009FB602 /* FNFreshTarget_LoginModule.m in Sources */,
+				FE4883091F41867B009FB602 /* ZZRouterTarget_MerchandiseDetailModule.m in Sources */,
+				FE4883021F41867B009FB602 /* ZZRouterTarget_LoginModule.m in Sources */,
 				FE4883161F4186AF009FB602 /* ZZRouterJumpTypePush.m in Sources */,
 				FE2748561F497CF10055396F /* FNBaseTabBarController.m in Sources */,
-				FE4882FC1F41867B009FB602 /* FNFreshTabBarController.m in Sources */,
-				FE4882FB1F41867B009FB602 /* FNFreshUser.m in Sources */,
+				FE4882FC1F41867B009FB602 /* ZZRouterTabBarController.m in Sources */,
+				FE4882FB1F41867B009FB602 /* ZZRouterUser.m in Sources */,
 				FE27484D1F497CD80055396F /* UIFont+FNFont.m in Sources */,
 				6003F5A7195388D20070C39A /* ZZViewController.m in Sources */,
 				FE4882FA1F41867B009FB602 /* UIViewController+FNNavigationBarHidden.m in Sources */,
 				FE4883031F41867B009FB602 /* FNMediator+FNUserCenterModule.m in Sources */,
 				FE27484C1F497CD80055396F /* NSBundle+FNFont.m in Sources */,
 				FE27483C1F497CD00055396F /* UILabel+FNColor.m in Sources */,
-				FE4882FD1F41867B009FB602 /* FNFreshTarget_TabBarService.m in Sources */,
+				FE4882FD1F41867B009FB602 /* ZZRouterTarget_TabBarService.m in Sources */,
 				FE4883141F4186AF009FB602 /* ZZRouterJumpTypeHideTabBarWhenPush.m in Sources */,
 				FE27483D1F497CD00055396F /* UIView+FNColor.m in Sources */,
 				FE27483B1F497CD00055396F /* UIColor+FNColor.m in Sources */,
-				FE4883061F41867B009FB602 /* FNFreshTarget_OrderModule.m in Sources */,
+				FE4883061F41867B009FB602 /* ZZRouterTarget_OrderModule.m in Sources */,
 				FE4882F91F41867B009FB602 /* UINavigationController+APSafeTransition.m in Sources */,
 				FE27483A1F497CD00055396F /* NSBundle+FNColor.m in Sources */,
-				FE4883001F41867B009FB602 /* FNFreshLoginParentViewController.m in Sources */,
+				FE4883001F41867B009FB602 /* ZZRouterLoginParentViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				FE4882F71F41867B009FB602 /* FNBaseNavigationController.m in Sources */,
-				FE4883041F41867B009FB602 /* FNFreshMyOrdersViewController.m in Sources */,
-				FE4882FE1F41867B009FB602 /* FNFreshMrFreshViewController.m in Sources */,
+				FE4883041F41867B009FB602 /* ZZRouterMyOrdersViewController.m in Sources */,
+				FE4882FE1F41867B009FB602 /* ZZRouterMrFreshViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,6 +1,6 @@
 //
 //  ZZRouterRedirctCheckLogin.h
-//  FNFresh
+//  ZZRouter
 //
 //  Created by 张苏亚 on 17/8/2.
 //  Copyright © 2017年ZZRouter All rights reserved.

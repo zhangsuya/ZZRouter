@@ -1,6 +1,6 @@
 //
-//  FNFreshTabBarController.h
-//  FNFresh
+//  ZZRouterTabBarController.h
+//  ZZRouter
 //
 //  Created by DC on 2017/2/8.
 //  Copyright © 2017年ZZRouter All rights reserved.
@@ -15,7 +15,7 @@ typedef NS_ENUM(NSUInteger, FNTabBarViewControllerType) {
     FNTabBarViewControllerTypeMyAccount         // 我的账户
 };
 
-@interface FNFreshTabBarController : FNBaseTabBarController
+@interface ZZRouterTabBarController : FNBaseTabBarController
 
 + (instancetype)shareInstance;
 

@@ -7,7 +7,7 @@
 //
 
 #import "ZZAppDelegate.h"
-#import "FNFreshTabBarController.h"
+#import "ZZRouterTabBarController.h"
 #import "FNBaseNavigationController.h"
 #import "ZZRouter.h"
 
@@ -15,7 +15,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    FNFreshTabBarController *tabBarVC = [FNFreshTabBarController shareInstance];
+    ZZRouterTabBarController *tabBarVC = [ZZRouterTabBarController shareInstance];
     FNBaseNavigationController *rootNavigationVC = [[FNBaseNavigationController alloc] initWithRootViewController:tabBarVC];
     [self.window setRootViewController:rootNavigationVC];
     [self.window makeKeyAndVisible];

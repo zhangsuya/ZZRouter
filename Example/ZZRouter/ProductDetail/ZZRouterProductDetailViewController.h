@@ -1,5 +1,5 @@
 //
-//  FNFreshProductDetailViewController.h
+//  ZZRouterProductDetailViewController.h
 //  ZZRouterDemo
 //
 //  Created by 张苏亚 on 17/8/3.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FNFreshProductDetailViewController : UIViewController
+@interface ZZRouterProductDetailViewController : UIViewController
 
 /**
  商祥初始化方法

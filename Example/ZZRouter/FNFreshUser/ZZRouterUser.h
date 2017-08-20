@@ -1,6 +1,6 @@
 //
-//  FNFreshUser.h
-//  FNFresh
+//  ZZRouterUser.h
+//  ZZRouter
 //
 //  Created by litt1er on 17/3/16.
 //  Copyright © 2017年ZZRouter All rights reserved.
@@ -8,23 +8,23 @@
 
 #import <Foundation/Foundation.h>
 
-typedef NS_ENUM(NSInteger, FNFreshLoginType) {
+typedef NS_ENUM(NSInteger, ZZRouterLoginType) {
     
-    FNFreshLoginTypePhoneVerificationLanding,       //手机验证登录
-    FNFreshLoginTypeAccountPassword                 //账号密码登录
+    ZZRouterLoginTypePhoneVerificationLanding,       //手机验证登录
+    ZZRouterLoginTypeAccountPassword                 //账号密码登录
 };
 
-typedef NS_ENUM (NSUInteger, FNFreshLocationEnterType) {
-    FNFreshEmptyType,
-    FNFreshLocationType,
-    FNFreshUserAddressType,
-    FNFreshDefaultCityType
+typedef NS_ENUM (NSUInteger, ZZRouterLocationEnterType) {
+    ZZRouterEmptyType,
+    ZZRouterLocationType,
+    ZZRouterUserAddressType,
+    ZZRouterDefaultCityType
 };
 
 extern NSString * const kLoginSuccessNotification;
 extern NSString * const kAddressChangedNotification;
 
-@interface FNFreshUser : NSObject
+@interface ZZRouterUser : NSObject
 
 //token
 @property (nonatomic, copy) NSString *accessToken;
@@ -41,7 +41,7 @@ extern NSString * const kAddressChangedNotification;
 //是否设置支付密码
 @property (nonatomic, assign) BOOL isSettingPayPassword;
 //上次登录方式
-@property (nonatomic, assign) FNFreshLoginType lastLoginType;
+@property (nonatomic, assign) ZZRouterLoginType lastLoginType;
 //上次登录Name
 @property (nonatomic, copy) NSString *lastLoginName;
 //上次手机登录
@@ -69,7 +69,7 @@ extern NSString * const kAddressChangedNotification;
 /**
  *  进入app定位类型
  */
-@property (nonatomic, assign) FNFreshLocationEnterType enterHomeType;
+@property (nonatomic, assign) ZZRouterLocationEnterType enterHomeType;
 
 /**
  *  收货地址提醒，用于首页

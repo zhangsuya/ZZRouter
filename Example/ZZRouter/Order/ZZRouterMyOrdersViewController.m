@@ -1,18 +1,18 @@
 //
-//  FNFreshMyOrdersViewController.m
+//  ZZRouterMyOrdersViewController.m
 //  ZZRouterDemo
 //
 //  Created by 张苏亚 on 17/8/3.
 //  Copyright © 2017年 张苏亚. All rights reserved.
 //
 
-#import "FNFreshMyOrdersViewController.h"
+#import "ZZRouterMyOrdersViewController.h"
 
-@interface FNFreshMyOrdersViewController ()
+@interface ZZRouterMyOrdersViewController ()
 
 @end
 
-@implementation FNFreshMyOrdersViewController
+@implementation ZZRouterMyOrdersViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

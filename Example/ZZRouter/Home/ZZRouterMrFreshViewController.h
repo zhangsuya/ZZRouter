@@ -1,5 +1,5 @@
 //
-//  FNFreshMyOrdersViewController.h
+//  ZZRouterMrFreshViewController.h
 //  ZZRouterDemo
 //
 //  Created by 张苏亚 on 17/8/3.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FNFreshMyOrdersViewController : UIViewController
+@interface ZZRouterMrFreshViewController : UIViewController
 
 @end

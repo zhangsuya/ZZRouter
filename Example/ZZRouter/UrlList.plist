@@ -5,7 +5,7 @@
 	<key>homepage</key>
 	<dict>
 		<key>nativeurl</key>
-		<string>TabBarService/FNFreshTabBarController_SwitchTabBarWithParam</string>
+		<string>TabBarService/ZZRouterTabBarController_SwitchTabBarWithParam</string>
 		<key>jumpType</key>
 		<string>switchTabBar</string>
 		<key>tabItemIndex</key>
@@ -16,7 +16,7 @@
 	<key>productdetail</key>
 	<dict>
 		<key>nativeurl</key>
-		<string>MerchandiseDetailModule/FNFreshProductDetailViewController_InitializeWithParameter</string>
+		<string>MerchandiseDetailModule/ZZRouterProductDetailViewController_InitializeWithParameter</string>
 		<key>jumpType</key>
 		<string>hideTabBarWhenPush</string>
 		<key>isSupportH5</key>
@@ -25,7 +25,7 @@
 	<key>orderlist</key>
 	<dict>
 		<key>nativeurl</key>
-		<string>OrderModule/FNFreshMyOrdersViewController_InitWithParam</string>
+		<string>OrderModule/ZZRouterMyOrdersViewController_InitWithParam</string>
 		<key>jumpType</key>
 		<string>hideTabBarWhenPush</string>
 		<key>redirect</key>
@@ -36,7 +36,7 @@
 	<key>login</key>
 	<dict>
 		<key>nativeurl</key>
-		<string>LoginModule/FNFreshLoginParentViewController_InitWithParam</string>
+		<string>LoginModule/ZZRouterLoginParentViewController_InitWithParam</string>
 		<key>jumpType</key>
 		<string>present</string>
 		<key>isSupportH5</key>
@@ -45,7 +45,7 @@
 	<key>openurl</key>
 	<dict>
 		<key>nativeurl</key>
-		<string>H5Module/FNFreshH5WebViewController_URL</string>
+		<string>H5Module/ZZRouterH5WebViewController_URL</string>
 		<key>jumpType</key>
 		<string>hideTabBarWhenPush</string>
 		<key>isSupportH5</key>

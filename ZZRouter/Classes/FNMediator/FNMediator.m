@@ -54,7 +54,7 @@ NSString *Parameter_Failure = @"Parameter_Failure";
 {
     if (self = [super init]) {
         _nativeScheme = @"nativefn";
-        _targetNamePrefix = @"FNFreshTarget";
+        _targetNamePrefix = @"ZZRouterTarget";
         _moduleTargetNameSuffix = @"Module";
         _serviceTargetNameSuffix = @"Service";
         _actionNamePrefix = @"action";

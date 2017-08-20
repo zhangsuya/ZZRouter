@@ -1,12 +1,12 @@
 //
-//  FNFreshUser.m
-//  FNFresh
+//  ZZRouterUser.m
+//  ZZRouter
 //
 //  Created by litt1er on 17/3/16.
 //  Copyright © 2017年ZZRouter All rights reserved.
 //
 
-#import "FNFreshUser.h"
+#import "ZZRouterUser.h"
 
 
 
@@ -34,7 +34,7 @@ static NSString * const kLongitude                   = @"isLongitude";
 static NSString * const klatitude                    = @"isLatitude";
 static NSString * const kDleiveryPoiName             = @"deliveryPoiName";
 
-@interface FNFreshUser ()
+@interface ZZRouterUser ()
 
 @property (nonatomic, copy, readwrite) NSString *userName;
 @property (nonatomic, copy, readwrite) NSString *guid;
@@ -44,7 +44,7 @@ static NSString * const kDleiveryPoiName             = @"deliveryPoiName";
 
 @end
 
-@implementation FNFreshUser
+@implementation ZZRouterUser
 
 @synthesize gaodeInformationDic       = _gaodeInformationDic;
 @synthesize shopInfomationDic         = _shopInfomationDic;
@@ -70,10 +70,10 @@ static NSString * const kDleiveryPoiName             = @"deliveryPoiName";
 #pragma mark - public methods
 + (instancetype)shareInstance
 {
-    static FNFreshUser *_shareInstance = nil;
+    static ZZRouterUser *_shareInstance = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        _shareInstance = [[FNFreshUser alloc] init];
+        _shareInstance = [[ZZRouterUser alloc] init];
     });
     return _shareInstance;
 }

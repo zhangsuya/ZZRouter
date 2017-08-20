@@ -1,26 +1,26 @@
 //
 //  ZZRouterJumpTypeHideTabBarWhenPush.m
-//  FNFresh
+//  ZZRouter
 //
 //  Created by 张苏亚 on 17/8/2.
 //  Copyright © 2017年ZZRouter All rights reserved.
 //
 
 #import "ZZRouterJumpTypeHideTabBarWhenPush.h"
-#import "FNFreshTabBarController.h"
+#import "ZZRouterTabBarController.h"
 
 @implementation ZZRouterJumpTypeHideTabBarWhenPush
 
 -(void)jumpWithTypeModel:(NSObject<ZZRouterJumpTypeModelProtocol> *)model
 {
-    [FNFreshTabBarController shareInstance].hidesBottomBarWhenPushed = YES;
-    [[FNFreshTabBarController shareInstance].navigationController pushViewController:model.vc animated:YES];
+    [ZZRouterTabBarController shareInstance].hidesBottomBarWhenPushed = YES;
+    [[ZZRouterTabBarController shareInstance].navigationController pushViewController:model.vc animated:YES];
 }
 
 -(void)jumpWithTypeVC:(UIViewController *)typeVC
 {
-    [FNFreshTabBarController shareInstance].hidesBottomBarWhenPushed = YES;
-    [[FNFreshTabBarController shareInstance].navigationController pushViewController:typeVC animated:YES];
+    [ZZRouterTabBarController shareInstance].hidesBottomBarWhenPushed = YES;
+    [[ZZRouterTabBarController shareInstance].navigationController pushViewController:typeVC animated:YES];
 }
 
 @end

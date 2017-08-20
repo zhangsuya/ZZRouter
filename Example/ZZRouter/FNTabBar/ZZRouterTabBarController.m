@@ -1,21 +1,21 @@
 //
-//  FNFreshTabBarController.m
-//  FNFresh
+//  ZZRouterTabBarController.m
+//  ZZRouter
 //
 //  Created by DC on 2017/2/8.
 //  Copyright © 2017年ZZRouter All rights reserved.
 //
 
-#import "FNFreshTabBarController.h"
+#import "ZZRouterTabBarController.h"
 #import "FNBaseNavigationController.h"
-#import "FNFreshMrFreshViewController.h"
+#import "ZZRouterMrFreshViewController.h"
 #import "FNTabBar.h"
-#import "FNFreshUser.h"
+#import "ZZRouterUser.h"
 #import "UIFont+FNFont.h"
 #import "UIColor+FNColor.h"
 #import "BFKit.h"
 
-@interface FNFreshTabBarController ()<FNBaseTabBarControllerDelegate>
+@interface ZZRouterTabBarController ()<FNBaseTabBarControllerDelegate>
 
 @property (nonatomic, strong) FNTabBar *fnTabBar;
 
@@ -23,13 +23,13 @@
 
 @end
 
-@implementation FNFreshTabBarController
+@implementation ZZRouterTabBarController
 
 + (instancetype) shareInstance {
-    static FNFreshTabBarController *_shareInstance = nil;
+    static ZZRouterTabBarController *_shareInstance = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        _shareInstance = [[FNFreshTabBarController alloc] init];
+        _shareInstance = [[ZZRouterTabBarController alloc] init];
     });
     return _shareInstance;
 }
@@ -57,10 +57,10 @@
 
 - (void)createControllers
 {
-    [self FNAddChildViewController:[[FNFreshMrFreshViewController alloc] init] title:@"首页" image:[UIImage imageNamed:@"icon_Home_n"] selectedImage:[UIImage imageNamed:@"icon_home_s"]];
-    [self FNAddChildViewController:[[FNFreshMrFreshViewController alloc] init] title:@"分类" image:[UIImage imageNamed:@"icon_classification_n"] selectedImage:[UIImage imageNamed:@"icon_classification_s"]];
-    [self FNAddChildViewController:[[FNFreshMrFreshViewController alloc] init] title:@"购物车" image:[UIImage imageNamed:@"icon_shoppingcat_n"] selectedImage:[UIImage imageNamed:@"icon_shoppingcat_s"]];
-    [self FNAddChildViewController:[[FNFreshMrFreshViewController alloc] init] title:@"我的" image:[UIImage imageNamed:@"icon_my_n"] selectedImage:[UIImage imageNamed:@"icon_my_s"]];
+    [self FNAddChildViewController:[[ZZRouterMrFreshViewController alloc] init] title:@"首页" image:[UIImage imageNamed:@"icon_Home_n"] selectedImage:[UIImage imageNamed:@"icon_home_s"]];
+    [self FNAddChildViewController:[[ZZRouterMrFreshViewController alloc] init] title:@"分类" image:[UIImage imageNamed:@"icon_classification_n"] selectedImage:[UIImage imageNamed:@"icon_classification_s"]];
+    [self FNAddChildViewController:[[ZZRouterMrFreshViewController alloc] init] title:@"购物车" image:[UIImage imageNamed:@"icon_shoppingcat_n"] selectedImage:[UIImage imageNamed:@"icon_shoppingcat_s"]];
+    [self FNAddChildViewController:[[ZZRouterMrFreshViewController alloc] init] title:@"我的" image:[UIImage imageNamed:@"icon_my_n"] selectedImage:[UIImage imageNamed:@"icon_my_s"]];
 }
 
 - (void)FNAddChildViewController:(UIViewController *)controller title:(NSString *)title image:(UIImage *)image selectedImage:(UIImage *)selectedImage
@@ -83,7 +83,7 @@
 
 + (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated
 {
-    [[FNFreshTabBarController shareInstance] pushViewController:viewController animated:animated];
+    [[ZZRouterTabBarController shareInstance] pushViewController:viewController animated:animated];
 }
 
 - (void)backToHomeViewAnimated:(BOOL)flag
@@ -116,7 +116,7 @@
         [self setSelectedIndex:tabItemIndex];
         switch (tabItemIndex) {
             case 0:{
-                if ([self.selectedViewController isKindOfClass:[FNFreshMrFreshViewController class]]&&[[param objectForKey:@"isrefresh"] integerValue]==1) {
+                if ([self.selectedViewController isKindOfClass:[ZZRouterMrFreshViewController class]]&&[[param objectForKey:@"isrefresh"] integerValue]==1) {
                 }
             }
                 break;
@@ -128,9 +128,9 @@
 
 - (void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController {
     
-    if ([viewController isKindOfClass:[FNFreshMrFreshViewController class]]) {
+    if ([viewController isKindOfClass:[ZZRouterMrFreshViewController class]]) {
         
-//        [(FNFreshMrFreshViewController *)viewController scrollToTop];
+//        [(ZZRouterMrFreshViewController *)viewController scrollToTop];
     }
 }
 

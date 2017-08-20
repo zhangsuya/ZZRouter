@@ -1,6 +1,6 @@
 //
 //  FNMediator+FNUserCenterModule.h
-//  FNFresh
+//  ZZRouter
 //
 //  Created by litt1er on 17/4/26.
 //  Copyright © 2017年ZZRouter All rights reserved.

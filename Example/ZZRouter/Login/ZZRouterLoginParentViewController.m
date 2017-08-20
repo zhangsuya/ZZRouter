@@ -1,18 +1,18 @@
 //
-//  FNFreshLoginParentViewController.m
+//  ZZRouterLoginParentViewController.m
 //  ZZRouterDemo
 //
 //  Created by 张苏亚 on 17/8/3.
 //  Copyright © 2017年 张苏亚. All rights reserved.
 //
 
-#import "FNFreshLoginParentViewController.h"
+#import "ZZRouterLoginParentViewController.h"
 
-@interface FNFreshLoginParentViewController ()
+@interface ZZRouterLoginParentViewController ()
 
 @end
 
-@implementation FNFreshLoginParentViewController
+@implementation ZZRouterLoginParentViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

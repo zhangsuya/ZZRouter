@@ -1,5 +1,5 @@
 //
-//  FNFreshLoginParentViewController.h
+//  ZZRouterLoginParentViewController.h
 //  ZZRouterDemo
 //
 //  Created by 张苏亚 on 17/8/3.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FNFreshLoginParentViewController : UIViewController
+@interface ZZRouterLoginParentViewController : UIViewController
 
 @property (copy, nonatomic) void(^loginBlock)();
 

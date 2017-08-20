@@ -1,6 +1,6 @@
 //
-//  FNFreshTarget_LoginModule.h
-//  FNFresh
+//  ZZRouterTarget_LoginModule.h
+//  ZZRouter
 //
 //  Created by JamesCorp on 2017/4/26.
 //  Copyright © 2017年ZZRouter All rights reserved.
@@ -13,10 +13,10 @@
 extern NSString *Parameter_LoginBlock;
 
 
-@interface FNFreshTarget_LoginModule : NSObject
+@interface ZZRouterTarget_LoginModule : NSObject
 
 //本地调用loginVC
-- (UIViewController *)action_FNFreshLoginParentViewController_InitWithParams:(NSDictionary *)params;
+- (UIViewController *)action_ZZRouterLoginParentViewController_InitWithParams:(NSDictionary *)params;
 
 
 /**
@@ -27,6 +27,6 @@ extern NSString *Parameter_LoginBlock;
  }
  @return 登陆view controller
  */
--(UIViewController *)action_FNFreshLoginParentViewController_InitWithParam:(NSDictionary *)params;
+-(UIViewController *)action_ZZRouterLoginParentViewController_InitWithParam:(NSDictionary *)params;
 
 @end

@@ -1,15 +1,15 @@
 //
 //  FNTarget_MerchandiseDetail.m
-//  FNFresh
+//  ZZRouter
 //
 //  Created by Minyoung  on 2017/4/13.
 //  Copyright © 2017年ZZRouter All rights reserved.
 //
 
-#import "FNFreshTarget_MerchandiseDetailModule.h"
-#import "FNFreshProductDetailViewController.h"
+#import "ZZRouterTarget_MerchandiseDetailModule.h"
+#import "ZZRouterProductDetailViewController.h"
 
-@implementation FNFreshTarget_MerchandiseDetailModule
+@implementation ZZRouterTarget_MerchandiseDetailModule
 
 /**
  商祥vc
@@ -20,10 +20,10 @@
  }
  @return vc
  */
-- (UIViewController *)action_FNFreshProductDetailViewController_InitializeWithParameter:(NSDictionary *)parameter {
+- (UIViewController *)action_ZZRouterProductDetailViewController_InitializeWithParameter:(NSDictionary *)parameter {
     NSString *smSeq = [parameter objectForKey:@"smseq"];
     NSString *serviceId = [parameter objectForKey:@"serviceId"];
-    return [[FNFreshProductDetailViewController alloc] initWithMerchandiseId:smSeq serviceId:serviceId];
+    return [[ZZRouterProductDetailViewController alloc] initWithMerchandiseId:smSeq serviceId:serviceId];
 }
 
 @end

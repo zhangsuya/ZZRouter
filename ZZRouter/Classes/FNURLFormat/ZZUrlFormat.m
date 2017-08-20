@@ -12,14 +12,13 @@
 NSString *const ZZUrlFormatErrorDomain = @"ZZUrlFormatErrorDomain";
 NSString *const ZZRouterTypeErrorDomin = @"ZZRouterTypeErrorDomin";
 
-static NSString *const NATIVEURLSCHEME = @"nativefn";
+static NSString *const NATIVEURLSCHEME = @"nativeurl";
 
 
 @implementation ZZUrlFormat
 
 - (NSURL *)nativeUrlByFormatRemoteUrl:(NSURL *)remoteUrl error:(NSError **)error
 {
-    //校验scheme,只能是三种：fnfresh,feiniumart,fnrtmart
     NSArray *remoteSchemeArray = [ZZUrlFormat remoteUrlSchemesArray];
     
     BOOL isExpectedScheme = NO;
@@ -41,7 +40,7 @@ static NSString *const NATIVEURLSCHEME = @"nativefn";
     urlComponents.scheme = NATIVEURLSCHEME;
     
     //从plist中读取本地配置的内容
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"FNUrlList" ofType:@"plist"];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"UrlList" ofType:@"plist"];
     NSDictionary *urlDict = [NSDictionary dictionaryWithContentsOfFile:path];
     
     //根据url host获取plist中的对应元素：host为对应的key
