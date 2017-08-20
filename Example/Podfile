@@ -1,7 +1,17 @@
 use_frameworks!
 
+def univeral_pods
+    
+    source 'http://git.fn.com/cocoapods/FNComponentSpecs.git'
+    source 'https://github.com/CocoaPods/Specs.git'
+    
+    pod 'BFKit'
+    pod 'SDWebImage'
+end
+
 target 'ZZRouter_Example' do
   pod 'ZZRouter', :path => '../'
+  univeral_pods
 
   target 'ZZRouter_Tests' do
     inherit! :search_paths

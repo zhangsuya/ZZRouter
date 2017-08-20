@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>homepage</key>
+	<dict>
+		<key>nativeurl</key>
+		<string>TabBarService/FNFreshTabBarController_SwitchTabBarWithParam</string>
+		<key>jumpType</key>
+		<string>switchTabBar</string>
+		<key>tabItemIndex</key>
+		<string>0</string>
+		<key>isSupportH5</key>
+		<true/>
+	</dict>
+	<key>productdetail</key>
+	<dict>
+		<key>nativeurl</key>
+		<string>MerchandiseDetailModule/FNFreshProductDetailViewController_InitializeWithParameter</string>
+		<key>jumpType</key>
+		<string>hideTabBarWhenPush</string>
+		<key>isSupportH5</key>
+		<true/>
+	</dict>
+	<key>orderlist</key>
+	<dict>
+		<key>nativeurl</key>
+		<string>OrderModule/FNFreshMyOrdersViewController_InitWithParam</string>
+		<key>jumpType</key>
+		<string>hideTabBarWhenPush</string>
+		<key>redirect</key>
+		<string>checkLogin</string>
+		<key>isSupportH5</key>
+		<true/>
+	</dict>
+	<key>login</key>
+	<dict>
+		<key>nativeurl</key>
+		<string>LoginModule/FNFreshLoginParentViewController_InitWithParam</string>
+		<key>jumpType</key>
+		<string>present</string>
+		<key>isSupportH5</key>
+		<true/>
+	</dict>
+	<key>openurl</key>
+	<dict>
+		<key>nativeurl</key>
+		<string>H5Module/FNFreshH5WebViewController_URL</string>
+		<key>jumpType</key>
+		<string>hideTabBarWhenPush</string>
+		<key>isSupportH5</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

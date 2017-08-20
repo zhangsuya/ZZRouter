@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>sequentialIndependenceMethod</key>
+	<dict>
+		<key>New item</key>
+		<string></string>
+	</dict>
+	<key>redirect</key>
+	<dict>
+		<key>checkLogin</key>
+		<string>ZZRouterRedirectCheckLogin</string>
+	</dict>
+	<key>jumpType</key>
+	<dict>
+		<key>push</key>
+		<string>ZZRouterJumpTypePush</string>
+		<key>present</key>
+		<string>ZZRouterJumpTypePresent</string>
+		<key>hideTabBarWhenPush</key>
+		<string>ZZRouterJumpTypeHideTabBarWhenPush</string>
+	</dict>
+</dict>
+</plist>

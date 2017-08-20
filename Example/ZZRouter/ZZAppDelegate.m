@@ -7,12 +7,32 @@
 //
 
 #import "ZZAppDelegate.h"
+#import "FNFreshTabBarController.h"
+#import "FNBaseNavigationController.h"
+#import "ZZRouter.h"
 
 @implementation ZZAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    FNFreshTabBarController *tabBarVC = [FNFreshTabBarController shareInstance];
+    FNBaseNavigationController *rootNavigationVC = [[FNBaseNavigationController alloc] initWithRootViewController:tabBarVC];
+    [self.window setRootViewController:rootNavigationVC];
+    [self.window makeKeyAndVisible];
+    return YES;
+}
+
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url {
+    
+    ZZRouter *urlRouter = [[ZZRouter alloc] init];
+    [urlRouter jumpControllerWithRemoteURLString:[url absoluteString] completion:nil];
+    return YES;
+}
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotatio {
+    
+    ZZRouter *urlRouter = [[ZZRouter alloc] init];
+    [urlRouter jumpControllerWithRemoteURLString:[url absoluteString] completion:nil];
     return YES;
 }
 
@@ -43,4 +63,10 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+
+#pragma mark - background fetch
+- (void)application:(UIApplication *)application performFetchWithCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler
+{
+    completionHandler(UIBackgroundFetchResultNewData);
+}
 @end

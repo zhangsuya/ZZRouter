@@ -1,0 +1,27 @@
+PODS:
+  - BFKit (1.10.0)
+  - Kiwi (2.4.0)
+  - SDWebImage (4.1.0):
+    - SDWebImage/Core (= 4.1.0)
+  - SDWebImage/Core (4.1.0)
+  - ZZRouter (0.1.0)
+
+DEPENDENCIES:
+  - BFKit
+  - Kiwi
+  - SDWebImage
+  - ZZRouter (from `../`)
+
+EXTERNAL SOURCES:
+  ZZRouter:
+    :path: ../
+
+SPEC CHECKSUMS:
+  BFKit: bc58b74bc6825bb8c63b6901b88e3f73baf52701
+  Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
+  SDWebImage: 0e435c14e402a6730315a0fb79f95e68654d55a4
+  ZZRouter: 602f9df5d37014209af86d321392f3a8465a09aa
+
+PODFILE CHECKSUM: 1f6661228ce748b5738a1d1b7310be6c9e0919ec
+
+COCOAPODS: 1.2.0
