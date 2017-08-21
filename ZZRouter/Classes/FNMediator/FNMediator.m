@@ -53,7 +53,7 @@ NSString *Parameter_Failure = @"Parameter_Failure";
 - (instancetype)init
 {
     if (self = [super init]) {
-        _nativeScheme = @"nativefn";
+        _nativeScheme = @"nativeurl";
         _targetNamePrefix = @"ZZRouterTarget";
         _moduleTargetNameSuffix = @"Module";
         _serviceTargetNameSuffix = @"Service";
