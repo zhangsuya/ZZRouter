@@ -11,12 +11,8 @@
 
 @implementation ZZRouterJumpTypePresent
 
--(void)jumpWithTypeModel:(NSObject<ZZRouterJumpTypeModelProtocol> *)model
-{
-    [[ZZRouterTabBarController shareInstance] presentViewController:model.vc animated:YES completion:nil];
-}
 
--(void)jumpWithTypeVC:(UIViewController *)typeVC
+-(void)jumpWithTypeVC:(UIViewController *)typeVC paramsDict:(NSDictionary *)params
 {
     [[ZZRouterTabBarController shareInstance] presentViewController:typeVC animated:YES completion:nil];
 }

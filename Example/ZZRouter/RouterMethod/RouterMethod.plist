@@ -20,6 +20,8 @@
 		<string>ZZRouterJumpTypePresent</string>
 		<key>hideTabBarWhenPush</key>
 		<string>ZZRouterJumpTypeHideTabBarWhenPush</string>
+		<key>switchTabBar</key>
+		<string>ZZRouterSwitchTabbar</string>
 	</dict>
 </dict>
 </plist>

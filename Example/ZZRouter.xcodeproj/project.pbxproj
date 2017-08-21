@@ -59,6 +59,8 @@
 		FE4883161F4186AF009FB602 /* ZZRouterJumpTypePush.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4883101F4186AF009FB602 /* ZZRouterJumpTypePush.m */; };
 		FE4883171F4186AF009FB602 /* ZZRouterRedirectCheckLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4883121F4186AF009FB602 /* ZZRouterRedirectCheckLogin.m */; };
 		FE4883181F4186AF009FB602 /* RouterMethod.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE4883131F4186AF009FB602 /* RouterMethod.plist */; };
+		FED58B861F4A7F0F003DCE06 /* ZZRouterSwitchTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = FED58B851F4A7F0F003DCE06 /* ZZRouterSwitchTabbar.m */; };
+		FED58B891F4A823C003DCE06 /* FNMediator+TabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FED58B881F4A823C003DCE06 /* FNMediator+TabBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -163,6 +165,10 @@
 		FE4883111F4186AF009FB602 /* ZZRouterRedirectCheckLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZRouterRedirectCheckLogin.h; sourceTree = "<group>"; };
 		FE4883121F4186AF009FB602 /* ZZRouterRedirectCheckLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZRouterRedirectCheckLogin.m; sourceTree = "<group>"; };
 		FE4883131F4186AF009FB602 /* RouterMethod.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RouterMethod.plist; sourceTree = "<group>"; };
+		FED58B841F4A7F0F003DCE06 /* ZZRouterSwitchTabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZRouterSwitchTabbar.h; sourceTree = "<group>"; };
+		FED58B851F4A7F0F003DCE06 /* ZZRouterSwitchTabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZRouterSwitchTabbar.m; sourceTree = "<group>"; };
+		FED58B871F4A823C003DCE06 /* FNMediator+TabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FNMediator+TabBar.h"; sourceTree = "<group>"; };
+		FED58B881F4A823C003DCE06 /* FNMediator+TabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FNMediator+TabBar.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -241,16 +247,16 @@
 			children = (
 				FE2748401F497CD80055396F /* FNFont */,
 				FE27482A1F497CD00055396F /* FNColor */,
-				FE42F8F61F4307780006DDB0 /* UrlList.plist */,
 				FE48830A1F4186AF009FB602 /* RouterMethod */,
 				FE4882CA1F41867B009FB602 /* FNBaseViewController */,
 				FE4882D21F41867B009FB602 /* FNFreshUser */,
-				FE4882D51F41867B009FB602 /* FNTabBar */,
+				FE4882D51F41867B009FB602 /* ZZTabBar */,
 				FE4882DA1F41867B009FB602 /* Home */,
 				FE4882DE1F41867B009FB602 /* Login */,
 				FE4882E51F41867B009FB602 /* MediatorCategoty */,
 				FE4882E91F41867B009FB602 /* Order */,
 				FE4882F01F41867B009FB602 /* ProductDetail */,
+				FE42F8F61F4307780006DDB0 /* UrlList.plist */,
 				6003F59C195388D20070C39A /* ZZAppDelegate.h */,
 				6003F59D195388D20070C39A /* ZZAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -422,7 +428,7 @@
 			path = FNFreshUser;
 			sourceTree = "<group>";
 		};
-		FE4882D51F41867B009FB602 /* FNTabBar */ = {
+		FE4882D51F41867B009FB602 /* ZZTabBar */ = {
 			isa = PBXGroup;
 			children = (
 				FE2748501F497CF10055396F /* FNTabBar */,
@@ -431,6 +437,7 @@
 				FE4882D81F41867B009FB602 /* ZZRouterTarget_TabBarService.h */,
 				FE4882D91F41867B009FB602 /* ZZRouterTarget_TabBarService.m */,
 			);
+			name = ZZTabBar;
 			path = FNTabBar;
 			sourceTree = "<group>";
 		};
@@ -477,6 +484,8 @@
 			children = (
 				FE4882E71F41867B009FB602 /* FNMediator+FNUserCenterModule.h */,
 				FE4882E81F41867B009FB602 /* FNMediator+FNUserCenterModule.m */,
+				FED58B871F4A823C003DCE06 /* FNMediator+TabBar.h */,
+				FED58B881F4A823C003DCE06 /* FNMediator+TabBar.m */,
 			);
 			path = UserCenter;
 			sourceTree = "<group>";
@@ -533,6 +542,8 @@
 				FE4883111F4186AF009FB602 /* ZZRouterRedirectCheckLogin.h */,
 				FE4883121F4186AF009FB602 /* ZZRouterRedirectCheckLogin.m */,
 				FE4883131F4186AF009FB602 /* RouterMethod.plist */,
+				FED58B841F4A7F0F003DCE06 /* ZZRouterSwitchTabbar.h */,
+				FED58B851F4A7F0F003DCE06 /* ZZRouterSwitchTabbar.m */,
 			);
 			path = RouterMethod;
 			sourceTree = "<group>";
@@ -591,6 +602,9 @@
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "张苏亚";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						LastSwiftMigration = 0820;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -757,8 +771,10 @@
 				FE4882FB1F41867B009FB602 /* ZZRouterUser.m in Sources */,
 				FE27484D1F497CD80055396F /* UIFont+FNFont.m in Sources */,
 				6003F5A7195388D20070C39A /* ZZViewController.m in Sources */,
+				FED58B891F4A823C003DCE06 /* FNMediator+TabBar.m in Sources */,
 				FE4882FA1F41867B009FB602 /* UIViewController+FNNavigationBarHidden.m in Sources */,
 				FE4883031F41867B009FB602 /* FNMediator+FNUserCenterModule.m in Sources */,
+				FED58B861F4A7F0F003DCE06 /* ZZRouterSwitchTabbar.m in Sources */,
 				FE27484C1F497CD80055396F /* NSBundle+FNFont.m in Sources */,
 				FE27483C1F497CD00055396F /* UILabel+FNColor.m in Sources */,
 				FE4882FD1F41867B009FB602 /* ZZRouterTarget_TabBarService.m in Sources */,
@@ -910,9 +926,11 @@
 			baseConfigurationReference = 31B5C398CA7607FA94670574 /* Pods-ZZRouter_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZZRouter/ZZRouter-Prefix.pch";
 				INFOPLIST_FILE = "ZZRouter/ZZRouter-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -925,6 +943,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -934,12 +954,15 @@
 			baseConfigurationReference = F33EBDC5EF7B1A300D87989D /* Pods-ZZRouter_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZZRouter/ZZRouter-Prefix.pch";
 				INFOPLIST_FILE = "ZZRouter/ZZRouter-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

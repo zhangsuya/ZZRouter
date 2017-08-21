@@ -20,7 +20,6 @@
 #import "ZZRouterHelper.h"
 #import "ZZRouterForwardProtocol.h"
 #import "ZZRouterJumpTypeFactoryProtocol.h"
-#import "ZZRouterJumpTypeModelProtocol.h"
 #import "ZZRouterJumpTypeProtocol.h"
 #import "ZZRouterRedirectFactoryProtocol.h"
 #import "ZZRouterRedirectProtocol.h"

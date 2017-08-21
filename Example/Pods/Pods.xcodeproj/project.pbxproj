@@ -225,7 +225,6 @@
 		9F1A7CD0601EFEFC5FC8FD3FEC90EF09 /* NSObject+KiwiVerifierAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C878632226170216A83FA15748D346F9 /* NSObject+KiwiVerifierAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9FA07318189DC5D4FD3D5B739160D6C6 /* NSMethodSignature+KiwiAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DBE4AA79BD7E091A86DE19FAD55B31E /* NSMethodSignature+KiwiAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9FD9C97BDBEA16CC3E01068110AB57A3 /* BFSystemSound.h in Headers */ = {isa = PBXBuildFile; fileRef = CE397441D057A5A8AA8882C0DC8D9F83 /* BFSystemSound.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A010A74386179D281A6B4DF183F4E9AF /* ZZRouterJumpTypeModelProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A1564DAFA47ED890B8F37AF3C0F9A6F /* ZZRouterJumpTypeModelProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A04A3E973527EA9A88D509DCF5828763 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 877A2DE00CF6C629ADC591419D0426D4 /* ImageIO.framework */; };
 		A04AE4F1E38A52EE68A126B16B85E6FC /* UIView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F0D1D6FB4713D5FFC7F67FFDFD295C /* UIView+WebCache.m */; };
 		A17F6E30FBB9C1BEA955FCFA97B29091 /* ZZRouterRedirectProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AAE046960F3C3E12D3DA54D36683D82 /* ZZRouterRedirectProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -501,7 +500,6 @@
 		3901236BDF6C97E1FA80B97083691CCA /* KWContainStringMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWContainStringMatcher.m; path = Classes/Matchers/KWContainStringMatcher.m; sourceTree = "<group>"; };
 		398D50C13FF927DB1D304F6D14DC1C4D /* ZZRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZZRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		39EC37673868728BBDB950C7F3A9B052 /* KWExampleSuite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWExampleSuite.m; path = Classes/Core/KWExampleSuite.m; sourceTree = "<group>"; };
-		3A1564DAFA47ED890B8F37AF3C0F9A6F /* ZZRouterJumpTypeModelProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZZRouterJumpTypeModelProtocol.h; sourceTree = "<group>"; };
 		3A5A3083377C12D03E96332ED39FA509 /* NSFileManager+BFKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSFileManager+BFKit.h"; path = "Source/Additions/Foundation/NSFileManager+BFKit.h"; sourceTree = "<group>"; };
 		3AAE046960F3C3E12D3DA54D36683D82 /* ZZRouterRedirectProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZZRouterRedirectProtocol.h; sourceTree = "<group>"; };
 		3AB3B173456E600B51E59E1882B62070 /* BFKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFKit.h; path = Source/BFKit.h; sourceTree = "<group>"; };
@@ -981,7 +979,6 @@
 			children = (
 				053518C19D70FF19C0066E08ED7174BE /* ZZRouterForwardProtocol.h */,
 				041A52055A564E43496BD08B7F8C86D7 /* ZZRouterJumpTypeFactoryProtocol.h */,
-				3A1564DAFA47ED890B8F37AF3C0F9A6F /* ZZRouterJumpTypeModelProtocol.h */,
 				F714C69A8DF59D16691FF285F87C7CF4 /* ZZRouterJumpTypeProtocol.h */,
 				CF136971583573E7CCB2E16AC6619BC5 /* ZZRouterRedirectFactoryProtocol.h */,
 				3AAE046960F3C3E12D3DA54D36683D82 /* ZZRouterRedirectProtocol.h */,
@@ -1506,7 +1503,6 @@
 				1F35A42E13C3D201DC38BB8CFC840DBF /* ZZRouterHelper.h in Headers */,
 				8F957347AA7FB8502B2245AA94A3887C /* ZZRouterJumpTypeFactory.h in Headers */,
 				B1FF5C66CD82E56725044FBA694817C8 /* ZZRouterJumpTypeFactoryProtocol.h in Headers */,
-				A010A74386179D281A6B4DF183F4E9AF /* ZZRouterJumpTypeModelProtocol.h in Headers */,
 				403614CB2990E74298750FE3C745A328 /* ZZRouterJumpTypeProtocol.h in Headers */,
 				854866BA92BC672B8D40B0CA07F74F5D /* ZZRouterRedirectFactory.h in Headers */,
 				E97E32DABBFC7DDEC995DE59F6D46C86 /* ZZRouterRedirectFactoryProtocol.h in Headers */,

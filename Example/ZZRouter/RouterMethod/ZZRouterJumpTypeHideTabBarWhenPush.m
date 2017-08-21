@@ -11,13 +11,9 @@
 
 @implementation ZZRouterJumpTypeHideTabBarWhenPush
 
--(void)jumpWithTypeModel:(NSObject<ZZRouterJumpTypeModelProtocol> *)model
-{
-    [ZZRouterTabBarController shareInstance].hidesBottomBarWhenPushed = YES;
-    [[ZZRouterTabBarController shareInstance].navigationController pushViewController:model.vc animated:YES];
-}
 
--(void)jumpWithTypeVC:(UIViewController *)typeVC
+
+-(void)jumpWithTypeVC:(UIViewController *)typeVC paramsDict:(NSDictionary *)params
 {
     [ZZRouterTabBarController shareInstance].hidesBottomBarWhenPushed = YES;
     [[ZZRouterTabBarController shareInstance].navigationController pushViewController:typeVC animated:YES];

@@ -82,14 +82,14 @@ static const NSString *kSequentialIndependenceMethod = @"sequentialIndependenceM
     if ([elementDict objectForKey:kRedirect]) {
         NSObject<ZZRouterRedirectProtocol> *redirectObject = [ZZRouterHelper redirectObjectByName:[elementDict objectForKey:kRedirect]];
         [redirectObject redirectByOriginalVC:returnValue originalVCBlock:^(UIViewController *originalVC) {
-            [jumpTypeObject jumpWithTypeVC:originalVC];
+            [jumpTypeObject jumpWithTypeVC:originalVC paramsDict:elementDict];
         }];
         
     }else if([elementDict objectForKey:kForward]){
         
         
     }else{
-        [jumpTypeObject jumpWithTypeVC:returnValue];
+        [jumpTypeObject jumpWithTypeVC:returnValue paramsDict:elementDict];
 
     }
 

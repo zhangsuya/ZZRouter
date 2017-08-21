@@ -7,14 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "ZZRouterJumpTypeModelProtocol.h"
 #import <UIKit/UIKit.h>
 
 @protocol ZZRouterJumpTypeProtocol <NSObject>
 
--(void)jumpWithTypeModel:(NSObject<ZZRouterJumpTypeModelProtocol> *)model;
 
--(void)jumpWithTypeVC:(UIViewController *)typeVC;
+
+-(void)jumpWithTypeVC:(UIViewController *)typeVC paramsDict:(NSDictionary *)params;
 
 
 

@@ -13,6 +13,17 @@
 		<key>isSupportH5</key>
 		<true/>
 	</dict>
+    <key>category</key>
+    <dict>
+        <key>nativeurl</key>
+        <string>TabBarService/ZZRouterTabBarController_SwitchTabBarWithParam</string>
+        <key>jumpType</key>
+        <string>switchTabBar</string>
+        <key>tabItemIndex</key>
+        <string>1</string>
+        <key>isSupportH5</key>
+        <true/>
+    </dict>
 	<key>productdetail</key>
 	<dict>
 		<key>nativeurl</key>

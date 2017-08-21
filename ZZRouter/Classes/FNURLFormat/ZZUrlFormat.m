@@ -8,6 +8,7 @@
 
 #import "ZZUrlFormat.h"
 #import "NSString+FNJSONCategories.h"
+#import "ZZRouterHelper.h"
 
 NSString *const ZZUrlFormatErrorDomain = @"ZZUrlFormatErrorDomain";
 NSString *const ZZRouterTypeErrorDomin = @"ZZRouterTypeErrorDomin";
@@ -40,8 +41,7 @@ static NSString *const NATIVEURLSCHEME = @"nativeurl";
     urlComponents.scheme = NATIVEURLSCHEME;
     
     //从plist中读取本地配置的内容
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"UrlList" ofType:@"plist"];
-    NSDictionary *urlDict = [NSDictionary dictionaryWithContentsOfFile:path];
+    NSDictionary *urlDict = [[ZZRouterHelper sharedInstance] urlListDict].copy;
     
     //根据url host获取plist中的对应元素：host为对应的key
     NSString *url_host = [NSString stringWithFormat:@"%@",remoteUrl.host];
@@ -104,9 +104,7 @@ static NSString *const NATIVEURLSCHEME = @"nativeurl";
     urlComponents.scheme = NATIVEURLSCHEME;
     
     NSString *hostKeyString;
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"FNUrlList" ofType:@"plist"];
-    NSDictionary *urlDict = [NSDictionary dictionaryWithContentsOfFile:path];
-    
+    NSDictionary *urlDict = [[ZZRouterHelper sharedInstance] urlListDict].copy;
     
     hostKeyString = [NSString stringWithFormat:@"%@",remoteUrl.host];
     
