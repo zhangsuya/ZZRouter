@@ -5,11 +5,14 @@
 [![License](https://img.shields.io/cocoapods/l/ZZRouter.svg?style=flat)](http://cocoapods.org/pods/ZZRouter)
 [![Platform](https://img.shields.io/cocoapods/p/ZZRouter.svg?style=flat)](http://cocoapods.org/pods/ZZRouter)
 
+[中文介绍和用法](http://www.jianshu.com/p/f7a4e311fe99)
 ## Example
 
 You can run the project directly,Open the sarfri in the simulator or iphone of the project, enter url: 
 1.zzrouter://productdetail
 2.zzrouter://orderlist
+3.zzrouter://category
+4.zzrouter://homepage
 
 
 ## Requirements
