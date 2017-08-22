@@ -48,8 +48,6 @@
 		FE4883011F41867B009FB602 /* ZZRouterLoginParentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE4882E11F41867B009FB602 /* ZZRouterLoginParentViewController.xib */; };
 		FE4883021F41867B009FB602 /* ZZRouterTarget_LoginModule.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4882E41F41867B009FB602 /* ZZRouterTarget_LoginModule.m */; };
 		FE4883031F41867B009FB602 /* FNMediator+FNUserCenterModule.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4882E81F41867B009FB602 /* FNMediator+FNUserCenterModule.m */; };
-		FE4883041F41867B009FB602 /* ZZRouterMyOrdersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4882EB1F41867B009FB602 /* ZZRouterMyOrdersViewController.m */; };
-		FE4883051F41867B009FB602 /* ZZRouterMyOrdersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE4882EC1F41867B009FB602 /* ZZRouterMyOrdersViewController.xib */; };
 		FE4883061F41867B009FB602 /* ZZRouterTarget_OrderModule.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4882EF1F41867B009FB602 /* ZZRouterTarget_OrderModule.m */; };
 		FE4883071F41867B009FB602 /* ZZRouterProductDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4882F21F41867B009FB602 /* ZZRouterProductDetailViewController.m */; };
 		FE4883081F41867B009FB602 /* ZZRouterProductDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE4882F31F41867B009FB602 /* ZZRouterProductDetailViewController.xib */; };
@@ -59,6 +57,8 @@
 		FE4883161F4186AF009FB602 /* ZZRouterJumpTypePush.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4883101F4186AF009FB602 /* ZZRouterJumpTypePush.m */; };
 		FE4883171F4186AF009FB602 /* ZZRouterRedirectCheckLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4883121F4186AF009FB602 /* ZZRouterRedirectCheckLogin.m */; };
 		FE4883181F4186AF009FB602 /* RouterMethod.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE4883131F4186AF009FB602 /* RouterMethod.plist */; };
+		FE5E0C8B1F4BD98400B9E3CD /* ZZRouterMyOrdersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5E0C891F4BD98400B9E3CD /* ZZRouterMyOrdersViewController.m */; };
+		FE5E0C8C1F4BD98400B9E3CD /* ZZRouterMyOrdersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE5E0C8A1F4BD98400B9E3CD /* ZZRouterMyOrdersViewController.xib */; };
 		FED58B861F4A7F0F003DCE06 /* ZZRouterSwitchTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = FED58B851F4A7F0F003DCE06 /* ZZRouterSwitchTabbar.m */; };
 		FED58B891F4A823C003DCE06 /* FNMediator+TabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FED58B881F4A823C003DCE06 /* FNMediator+TabBar.m */; };
 /* End PBXBuildFile section */
@@ -146,9 +146,6 @@
 		FE4882E41F41867B009FB602 /* ZZRouterTarget_LoginModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZRouterTarget_LoginModule.m; sourceTree = "<group>"; };
 		FE4882E71F41867B009FB602 /* FNMediator+FNUserCenterModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FNMediator+FNUserCenterModule.h"; sourceTree = "<group>"; };
 		FE4882E81F41867B009FB602 /* FNMediator+FNUserCenterModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FNMediator+FNUserCenterModule.m"; sourceTree = "<group>"; };
-		FE4882EA1F41867B009FB602 /* ZZRouterMyOrdersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZRouterMyOrdersViewController.h; sourceTree = "<group>"; };
-		FE4882EB1F41867B009FB602 /* ZZRouterMyOrdersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZRouterMyOrdersViewController.m; sourceTree = "<group>"; };
-		FE4882EC1F41867B009FB602 /* ZZRouterMyOrdersViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZZRouterMyOrdersViewController.xib; sourceTree = "<group>"; };
 		FE4882EE1F41867B009FB602 /* ZZRouterTarget_OrderModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZRouterTarget_OrderModule.h; sourceTree = "<group>"; };
 		FE4882EF1F41867B009FB602 /* ZZRouterTarget_OrderModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZRouterTarget_OrderModule.m; sourceTree = "<group>"; };
 		FE4882F11F41867B009FB602 /* ZZRouterProductDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZRouterProductDetailViewController.h; sourceTree = "<group>"; };
@@ -165,6 +162,9 @@
 		FE4883111F4186AF009FB602 /* ZZRouterRedirectCheckLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZRouterRedirectCheckLogin.h; sourceTree = "<group>"; };
 		FE4883121F4186AF009FB602 /* ZZRouterRedirectCheckLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZRouterRedirectCheckLogin.m; sourceTree = "<group>"; };
 		FE4883131F4186AF009FB602 /* RouterMethod.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RouterMethod.plist; sourceTree = "<group>"; };
+		FE5E0C881F4BD98400B9E3CD /* ZZRouterMyOrdersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZRouterMyOrdersViewController.h; sourceTree = "<group>"; };
+		FE5E0C891F4BD98400B9E3CD /* ZZRouterMyOrdersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZRouterMyOrdersViewController.m; sourceTree = "<group>"; };
+		FE5E0C8A1F4BD98400B9E3CD /* ZZRouterMyOrdersViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZZRouterMyOrdersViewController.xib; sourceTree = "<group>"; };
 		FED58B841F4A7F0F003DCE06 /* ZZRouterSwitchTabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZRouterSwitchTabbar.h; sourceTree = "<group>"; };
 		FED58B851F4A7F0F003DCE06 /* ZZRouterSwitchTabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZRouterSwitchTabbar.m; sourceTree = "<group>"; };
 		FED58B871F4A823C003DCE06 /* FNMediator+TabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FNMediator+TabBar.h"; sourceTree = "<group>"; };
@@ -493,10 +493,10 @@
 		FE4882E91F41867B009FB602 /* Order */ = {
 			isa = PBXGroup;
 			children = (
-				FE4882EA1F41867B009FB602 /* ZZRouterMyOrdersViewController.h */,
-				FE4882EB1F41867B009FB602 /* ZZRouterMyOrdersViewController.m */,
-				FE4882EC1F41867B009FB602 /* ZZRouterMyOrdersViewController.xib */,
 				FE4882ED1F41867B009FB602 /* Target */,
+				FE5E0C881F4BD98400B9E3CD /* ZZRouterMyOrdersViewController.h */,
+				FE5E0C891F4BD98400B9E3CD /* ZZRouterMyOrdersViewController.m */,
+				FE5E0C8A1F4BD98400B9E3CD /* ZZRouterMyOrdersViewController.xib */,
 			);
 			path = Order;
 			sourceTree = "<group>";
@@ -638,11 +638,11 @@
 				FE42F8F71F4307780006DDB0 /* UrlList.plist in Resources */,
 				FE4883181F4186AF009FB602 /* RouterMethod.plist in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				FE5E0C8C1F4BD98400B9E3CD /* ZZRouterMyOrdersViewController.xib in Resources */,
 				FE4882FF1F41867B009FB602 /* ZZRouterMrFreshViewController.xib in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				FE27484B1F497CD80055396F /* FNFont_Main.plist in Resources */,
-				FE4883051F41867B009FB602 /* ZZRouterMyOrdersViewController.xib in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 				FE4883081F41867B009FB602 /* ZZRouterProductDetailViewController.xib in Resources */,
 				FE4883011F41867B009FB602 /* ZZRouterLoginParentViewController.xib in Resources */,
@@ -765,6 +765,7 @@
 				FE2748571F497CF20055396F /* FNTabBar.m in Sources */,
 				FE4883091F41867B009FB602 /* ZZRouterTarget_MerchandiseDetailModule.m in Sources */,
 				FE4883021F41867B009FB602 /* ZZRouterTarget_LoginModule.m in Sources */,
+				FE5E0C8B1F4BD98400B9E3CD /* ZZRouterMyOrdersViewController.m in Sources */,
 				FE4883161F4186AF009FB602 /* ZZRouterJumpTypePush.m in Sources */,
 				FE2748561F497CF10055396F /* FNBaseTabBarController.m in Sources */,
 				FE4882FC1F41867B009FB602 /* ZZRouterTabBarController.m in Sources */,
@@ -787,7 +788,6 @@
 				FE4883001F41867B009FB602 /* ZZRouterLoginParentViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				FE4882F71F41867B009FB602 /* FNBaseNavigationController.m in Sources */,
-				FE4883041F41867B009FB602 /* ZZRouterMyOrdersViewController.m in Sources */,
 				FE4882FE1F41867B009FB602 /* ZZRouterMrFreshViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

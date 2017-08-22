@@ -13,8 +13,8 @@
 
 
 - (UIViewController*)action_ZZRouterMyOrdersViewController_InitWithParam:(NSDictionary *)param {
-//    NSString *orderType = [param objectForKey:@"type"];
-    return [[ZZRouterMyOrdersViewController alloc] init];
+    NSString *orderId = [param objectForKey:@"orderid"];
+    return [[ZZRouterMyOrdersViewController alloc] initWithOrderId:orderId];
 }
 
 @end

@@ -10,11 +10,12 @@
 #import "ZZRouterTabBarController.h"
 #import "FNBaseNavigationController.h"
 #import "ZZRouter.h"
-
+#import "ZZRouterHelper.h"
 @implementation ZZAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [ZZRouterHelper registMethodListName:@"RouterMethod" urlListName:@"UrlList"];
     ZZRouterTabBarController *tabBarVC = [ZZRouterTabBarController shareInstance];
     FNBaseNavigationController *rootNavigationVC = [[FNBaseNavigationController alloc] initWithRootViewController:tabBarVC];
     [self.window setRootViewController:rootNavigationVC];
