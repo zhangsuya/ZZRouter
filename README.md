@@ -10,7 +10,7 @@
 
 You can run the project directly,Open the sarfri in the simulator or iphone of the project, enter url: 
 1.zzrouter://productdetail
-2.zzrouter://orderlist
+2.zzrouter://orderlist?orderid=xxx
 3.zzrouter://category
 4.zzrouter://homepage
 
