@@ -1,9 +1,6 @@
 # ZZRouter
 
-[![CI Status](http://img.shields.io/travis/张苏亚/ZZRouter.svg?style=flat)](https://travis-ci.org/张苏亚/ZZRouter)
-[![Version](https://img.shields.io/cocoapods/v/ZZRouter.svg?style=flat)](http://cocoapods.org/pods/ZZRouter)
-[![License](https://img.shields.io/cocoapods/l/ZZRouter.svg?style=flat)](http://cocoapods.org/pods/ZZRouter)
-[![Platform](https://img.shields.io/cocoapods/p/ZZRouter.svg?style=flat)](http://cocoapods.org/pods/ZZRouter)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/zhangsuya/ZZRouter) [![pod](https://img.shields.io/badge/pod-0.2.0--beta-yellow.svg)](https://github.com/zhangsuya/ZZRouter) [![platform](https://img.shields.io/badge/platform-iOS-ff69b4.svg)](https://github.com/zhangsuya/ZZRouter) [![aboutme](https://img.shields.io/badge/about%20me-chenfanfang-blue.svg)](http://www.jianshu.com/u/f2503bba4cfa)
 
 [中文介绍和用法](http://www.jianshu.com/p/f7a4e311fe99)
 ## Example
