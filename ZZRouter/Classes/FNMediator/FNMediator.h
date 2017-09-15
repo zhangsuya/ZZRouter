@@ -17,6 +17,11 @@ extern NSString *Parameter_Failure;
 + (instancetype)sharedInstance;
 
 /**
+ targetName的前置字符
+ */
+@property (nonatomic, copy) NSString *targetNamePrefix;
+
+/**
  远程App调用入口
 
  @param remoteURL 远程url

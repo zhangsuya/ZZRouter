@@ -24,6 +24,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		FB7457C1C560093AE52967AD /* Pods_ZZRouter_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CA030FA9C87B562DED9E3BD /* Pods_ZZRouter_Example.framework */; };
+		FE0DC7C41F6B73EB007D3356 /* FNMediator+ProdouctDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0DC7C31F6B73EB007D3356 /* FNMediator+ProdouctDetail.m */; };
 		FE2748391F497CD00055396F /* FNColor_main.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE27482D1F497CD00055396F /* FNColor_main.plist */; };
 		FE27483A1F497CD00055396F /* NSBundle+FNColor.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2748301F497CD00055396F /* NSBundle+FNColor.m */; };
 		FE27483B1F497CD00055396F /* UIColor+FNColor.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2748321F497CD00055396F /* UIColor+FNColor.m */; };
@@ -104,6 +105,8 @@
 		BEE253C9BF47974A0150C2A7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C16327238A4C70BB7E5B2DA7 /* Pods_ZZRouter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZZRouter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F33EBDC5EF7B1A300D87989D /* Pods-ZZRouter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZRouter_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZZRouter_Example/Pods-ZZRouter_Example.release.xcconfig"; sourceTree = "<group>"; };
+		FE0DC7C21F6B73EB007D3356 /* FNMediator+ProdouctDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FNMediator+ProdouctDetail.h"; sourceTree = "<group>"; };
+		FE0DC7C31F6B73EB007D3356 /* FNMediator+ProdouctDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FNMediator+ProdouctDetail.m"; sourceTree = "<group>"; };
 		FE27482D1F497CD00055396F /* FNColor_main.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = FNColor_main.plist; sourceTree = "<group>"; };
 		FE27482F1F497CD00055396F /* NSBundle+FNColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+FNColor.h"; sourceTree = "<group>"; };
 		FE2748301F497CD00055396F /* NSBundle+FNColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+FNColor.m"; sourceTree = "<group>"; };
@@ -245,6 +248,7 @@
 		6003F593195388D20070C39A /* Example for ZZRouter */ = {
 			isa = PBXGroup;
 			children = (
+				FE0DC7C11F6B709B007D3356 /* Category */,
 				FE2748401F497CD80055396F /* FNFont */,
 				FE27482A1F497CD00055396F /* FNColor */,
 				FE48830A1F4186AF009FB602 /* RouterMethod */,
@@ -308,6 +312,15 @@
 				00EF2422CF351B45A9CCDB32 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		FE0DC7C11F6B709B007D3356 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				FE0DC7C21F6B73EB007D3356 /* FNMediator+ProdouctDetail.h */,
+				FE0DC7C31F6B73EB007D3356 /* FNMediator+ProdouctDetail.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 		FE27482A1F497CD00055396F /* FNColor */ = {
@@ -776,6 +789,7 @@
 				FE4882FA1F41867B009FB602 /* UIViewController+FNNavigationBarHidden.m in Sources */,
 				FE4883031F41867B009FB602 /* FNMediator+FNUserCenterModule.m in Sources */,
 				FED58B861F4A7F0F003DCE06 /* ZZRouterSwitchTabbar.m in Sources */,
+				FE0DC7C41F6B73EB007D3356 /* FNMediator+ProdouctDetail.m in Sources */,
 				FE27484C1F497CD80055396F /* NSBundle+FNFont.m in Sources */,
 				FE27483C1F497CD00055396F /* UILabel+FNColor.m in Sources */,
 				FE4882FD1F41867B009FB602 /* ZZRouterTarget_TabBarService.m in Sources */,

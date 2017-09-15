@@ -18,10 +18,7 @@ NSString *Parameter_Failure = @"Parameter_Failure";
 @interface FNMediator ()
 
 @property (nonatomic, copy) NSString *nativeScheme;
-/**
- targetName的前置字符
- */
-@property (nonatomic, copy) NSString *targetNamePrefix;
+
 /**
  moduleTargetName的后置字符
  */

@@ -11,10 +11,14 @@
 #import "FNBaseNavigationController.h"
 #import "ZZRouter.h"
 #import "ZZRouterHelper.h"
+#import "FNMediator.h"
 @implementation ZZAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    //注册target前缀
+    [FNMediator sharedInstance].targetNamePrefix = @"ZZRouterTarget";
+    //注册方法配置plist和url配置plist
     [ZZRouterHelper registMethodListName:@"RouterMethod" urlListName:@"UrlList"];
     ZZRouterTabBarController *tabBarVC = [ZZRouterTabBarController shareInstance];
     FNBaseNavigationController *rootNavigationVC = [[FNBaseNavigationController alloc] initWithRootViewController:tabBarVC];

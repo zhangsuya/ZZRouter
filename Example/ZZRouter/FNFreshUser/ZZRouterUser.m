@@ -10,10 +10,6 @@
 
 
 
-NSString * const kLoginSuccessNotification = @"LoginSuccessNotification";
-NSString * const kAddressChangedNotification = @"AddressChangedNotification";
-static NSString * const kFNCryptKey = @"CryptKeyUseForAppGroup92301408&0702!";
-
 
 static NSString * const kAppToken                    = @"appToken";
 static NSString * const kGaodeInformationDicKey      = @"gaodeInformationDicKey";
@@ -46,26 +42,8 @@ static NSString * const kDleiveryPoiName             = @"deliveryPoiName";
 
 @implementation ZZRouterUser
 
-@synthesize gaodeInformationDic       = _gaodeInformationDic;
-@synthesize shopInfomationDic         = _shopInfomationDic;
-@synthesize addressId                 = _addressId;
-@synthesize addrWarn                  = _addrWarn;
-@synthesize pushH5LinkUrl             = _pushH5LinkUrl;
-@synthesize accessToken               = _accessToken;
-@synthesize phone                     = _phone;
-@synthesize mail                      = _mail;
 @synthesize isLogin                   = _isLogin;
-@synthesize guid                      = _guid;
-@synthesize lastLoginNumber           = _lastLoginNumber;
-@synthesize lastLoginName             = _lastLoginName;
-@synthesize lastLoginType             = _lastLoginType;
-@synthesize isNeedDisplay             = _isNeedDisplay;
-@synthesize deliveryAddress           = _deliveryAddress;
-@synthesize deliveryPoiName           = _deliveryPoiName;
-@synthesize presentCity               = _presentCity;
-@synthesize isSettingPayPassword      = _isSettingPayPassword;
-@synthesize longitude                 = _longitude;
-@synthesize latitude                  = _latitude;
+
 
 #pragma mark - public methods
 + (instancetype)shareInstance
@@ -78,10 +56,7 @@ static NSString * const kDleiveryPoiName             = @"deliveryPoiName";
     return _shareInstance;
 }
 
-- (void)restoreToken
-{
-    self.accessToken = @"";
-}
+
 
 
 #pragma mark - setter and getter
@@ -114,9 +89,6 @@ static NSString * const kDleiveryPoiName             = @"deliveryPoiName";
     [[NSUserDefaults standardUserDefaults] synchronize];
 }
 
-- (BOOL)isNeedDisplay
-{
-    return _isNeedDisplay = [[[NSUserDefaults standardUserDefaults] objectForKey:kIsNeedDisplay] boolValue];
-}
+
 
 @end

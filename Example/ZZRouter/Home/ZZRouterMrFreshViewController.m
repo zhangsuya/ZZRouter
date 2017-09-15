@@ -9,6 +9,7 @@
 #import "ZZRouterMrFreshViewController.h"
 #import "ZZRouterProductDetailViewController.h"
 #import "ZZRouterTabBarController.h"
+#import "FNMediator+ProdouctDetail.h"
 
 @interface ZZRouterMrFreshViewController ()
 
@@ -38,7 +39,7 @@
 
 - (IBAction)btnClicked:(id)sender {
     
-    ZZRouterProductDetailViewController *productDetailVC = [[ZZRouterProductDetailViewController alloc] init];
+    ZZRouterProductDetailViewController *productDetailVC = (ZZRouterProductDetailViewController *)[[FNMediator sharedInstance] prodouctDetail_InitializeWithMerchandiseId:@"" serviceId:@""];
     [[ZZRouterTabBarController shareInstance].navigationController pushViewController:productDetailVC animated:YES];
 
 }
